@@ -1,7 +1,7 @@
 import React from 'react';
-import { ScrollView, View, Text, StyleSheet } from 'react-native';
+import { ScrollView, View, Text, StyleSheet, TextInput, TouchableOpacity,  } from 'react-native';
 import { connect } from 'react-redux';
-import { getCoins } from './actions/coins';
+import { getCoins } from '../actions/coins';
 import Coin from './Coin';
 
 class Coins extends React.Component {
