@@ -1,16 +1,8 @@
 import React, { Fragment } from 'react';
-import { 
-  ScrollView, 
-  View, 
-  Text, 
-  StyleSheet, 
-  TextInput,
-  TouchableOpacity,
-  KeyboardAvoidingView,
-} from 'react-native';
+import { KeyboardAvoidingView, ScrollView, StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
 import { Icon } from 'react-native-elements';
 import { connect } from 'react-redux';
-import { getCoins, addCoin } from '../actions/coins';
+import { addCoin, getCoins } from '../actions/coins';
 import Coin from './Coin';
 
 class Coins extends React.Component {

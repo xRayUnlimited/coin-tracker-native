@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-    View,
-    TouchableOpacity,
-    KeyboardAvoidingView,
-    StyleSheet,
-    Text,
-    TextInput,
-} from 'react-native';
-import { Link } from 'react-router-native';
+import { KeyboardAvoidingView, StyleSheet, Text, TextInput, TouchableOpacity } from 'react-native';
 import { connect } from 'react-redux';
+import { Link } from 'react-router-native';
 import { handleLogin, registerUser } from '../actions/auth';
 
 class Auth extends React.Component {
